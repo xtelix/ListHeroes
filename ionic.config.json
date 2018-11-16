@@ -1,0 +1,7 @@
+{
+  "name": "Heroes",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
