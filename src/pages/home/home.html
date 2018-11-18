@@ -7,8 +7,12 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <h1>{{title}}</h1>
+  <h2>My hero is: {{myHero}}</h2>
+  <ul>
+    <li *ngFor="let item of heroes">
+      {{item}}
+    </li>
+  </ul>
+  <button ion-button block (click)="botones(heroes)">Ver lista botones</button>
 </ion-content>
